@@ -1,0 +1,91 @@
+*{
+  background-image: url(nscc_.jpg);
+}
+#navbar {
+  background-color: #333; 
+  position: fixed; 
+  top: -50px; 
+  width: 100%; 
+  transition: top 0.3s; 
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#contact{
+	border: 1px solid green;
+	width: 80px;
+	height: 80px;
+	display: flex;
+  cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	border: 5px solid rgb(0, 49, 49);
+	border-radius: 10px;
+	transition: all 0.03s;
+  padding: 5px 5px;
+  margin-bottom: 80px;
+  flex-direction: row;
+  flex: 1;
+  margin-left: 40px;
+  background-color: black;
+}
+.Gith{
+  position: relative;
+  left: -1060px;
+}
+.Mail{
+  position: relative;
+  left: -350px;
+}
+.Insta , .Gith{
+  float: right;
+}
+.Gith , .Mail{
+  margin-top: 400px;
+}
+.Insta{
+  position: relative;
+  left: -1200px;
+}
+.Link , .Mail{
+  float: left;
+}
+.Link,.Insta{
+  margin-top: 250px;
+}
+.Link{
+  position: relative;
+  left: -210px;
+}
+
+.left-image {
+  float: left; 
+  width: 200px; 
+  height: auto; 
+  opacity: 0.9;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.img {
+  margin-top: 20px;
+  text-align: justify;
+  width: [width of img];
+  font-size: 40px;
+}
+
